@@ -11,7 +11,90 @@ body {
     background-color: cadetblue;
 }
 
+.lol {
+    max-width: 1920px;
+    max-height: 1080px;
+    height: 35px;
+    width: 100%;
+    position: fixed;
+    top:0;
+    border-bottom: solid #ffffff 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.lel {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lul {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lyl {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.lil {
+    height: 100%;
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    opacity: 0.50;
+    background-color: #000a1d;
+    transition: all 0.5s ease;
+}
+
+.fap {
+    font-family: GeosansLight-NMS;
+    color: white;
+    font-size: 2em;
+}
+
+.lel:hover {
+    opacity: 1;
+}
+
+.lul:hover {
+    opacity: 1;
+}
+
+.lyl:hover {
+    opacity: 1;
+}
+
+.lil:hover {
+    opacity: 1;
+}
 
 .a {
     height: 100vh;
@@ -25,7 +108,7 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: solid cadetblue 15px;
+    z-index: -1;
 }
 
 
@@ -40,6 +123,7 @@ body {
     align-items: center;
     background-image: url("../img/stuff2.png");
     background-size:cover;
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
 }
 
 .c {
@@ -54,8 +138,8 @@ body {
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
-    border-bottom: solid cadetblue 15px;
-    border-top: solid cadetblue 15px;
+    z-index: -1;
+
 }
 
 .d {
@@ -69,7 +153,7 @@ body {
     align-items: center;
     background-image: url("../img/stuff4.jpg");
     background-size:cover;
-    border-bottom: solid cadetblue 15px;
+    box-shadow: 0px 0px 20px 6px rgba(0,0,0,1);
 }
 
 .e {
@@ -80,8 +164,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #020614
-
+    background-attachment: fixed;
+    background-color: #000a1d;
+    z-index: -1;
 }
 
 @font-face {
@@ -89,8 +174,8 @@ body {
     src: url(../../misc/geonms-webfont.ttf)
 }
 
-p {
-    font-size: 100px;
+.derp {
+    font-size: 99px;
     color: white;
     text-shadow: 3px 4px 3px rgba(40, 40, 40, 1);
     margin-bottom: 45px;
